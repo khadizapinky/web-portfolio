@@ -27,9 +27,91 @@ span.name-highlight{
 .right img{
     width:100%;
 }
-section{
+.top-banner{
    
     background-image: url('images/top-banner.png');
     height:600px;
     background-repeat: no-repeat;
+}
+section{
+    height:500px;
+}
+.link-button{
+    color:white;
+    padding:10px 30px;
+    background-image:linear-gradient(45deg,lightsalmon,tomato);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+
+
+/* Dream Area */
+
+.secleft img{
+    width:100%;
+}
+.secleft{
+    width:40%;
+    float:left;
+    margin-left:2%;
+    padding-left:2%;
+    /* background-color: peru; */
+
+}
+.secright{
+    width:40%;
+    float:right;
+    margin-right:2%;
+    padding-right:2%;
+    /* background-color: palevioletred; */
+   
+}
+
+
+.dream_area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+/* exp_area */
+.exp_area{
+    margin-top:100px;
+}
+.thrdleft{
+    width: 500px;
+    height:350px;
+    box-shadow: paleturquoise;
+    margin-left:5%;
+    padding-left:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float:left;
+    border-left: 8px solid blueviolet;
+}
+.thrdleft h1{
+    font-size:50px;
+}
+.fourleft{
+    width: 500px;
+    height:350px;
+    box-shadow: paleturquoise;
+    margin-right:5%;
+    padding-left:2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float:right;
+    border-left: 8px solid blueviolet;
+}
+.exp_area{
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position: left center;
+    
+}
+/* footer */
+footer{
+    margin-top:100px;
+    text-align:center;
 }
